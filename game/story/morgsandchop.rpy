@@ -5,7 +5,8 @@
 
 define morgs_char = Character('CDR Morgs', color="ff0000")
 define chop_char = Character('LCDR Chop', color="#ffff00")
-define player = Character('Player')
+image ctc_animation = Animation("gui/ctc.png", 0.2, "gui/ctc2.png", 0.2, xpos=0.96, ypos=0.99, xanchor=1.0, yanchor=1.0)
+define player = Character('Player', ctc="ctc_animation", ctc_position="fixed")
 
 image morgs = "morgs.png"
 image chop = "chop.png"

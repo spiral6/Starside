@@ -7,11 +7,11 @@
 
 label start:
 
-    call firstscene from _call_firstscene
+    call firstscene
 
     ##after jay
     
-    call morgsandchop from _call_morgsandchop
+    call morgsandchop
     
     scene hanger
     
