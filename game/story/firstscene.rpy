@@ -1,5 +1,4 @@
 label firstscene:
 
 
-
-return
+    return

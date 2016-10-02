@@ -12,14 +12,12 @@ define player = Character('Player')
 
 label start:
 
-    jump firstscene
+    call firstscene
 
     ##after jay
     
-    jump morgsandchop
-
-    scene bg room
-
-
-
+    call morgsandchop
+    
+    scene hanger
+    
     return
