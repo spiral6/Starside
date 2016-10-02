@@ -29,7 +29,7 @@ define config.version = "1.0"
 ## Text that is placed on the game's about screen. To insert a blank line
 ## between paragraphs, write \n\n.
 
-define gui.about = _("")
+define gui.about = _("Welcome to the RWBY PMC VN game thing \nI don't really know what else to put here \nhi.")
 
 
 ## A short name for the game used for executables and directories in the built
@@ -61,7 +61,7 @@ define config.has_voice = True
 ## game, until it is stopped or another file is played.
 
 # define config.main_menu_music = "main-menu-theme.ogg"
-
+define config.main_menu_music = "audio/mainmenu.ogg"
 
 ## Transitions #################################################################
 ##

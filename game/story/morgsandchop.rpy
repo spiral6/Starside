@@ -3,8 +3,8 @@
 ## Declare characters used by this game. The color argument colorizes the name
 ## of the character.
 
-define morgs_char = Character('CDR Morgs')
-define chop_char = Character('LCDR Chop')
+define morgs_char = Character('CDR Morgs', color="ff0000")
+define chop_char = Character('LCDR Chop', color="#ffff00")
 define player = Character('Player')
 
 image morgs = "morgs.png"
@@ -51,7 +51,7 @@ label morgsandchop:
     
     "Morgs pulls out her mobiglass and begins scrolling through the crew’s roster."
     
-    morgs_char "So, when are you running this--what did you call it--training exercise?"
+    morgs_char "So, when are you running this--what did you call it--{i}training exercise{/i}?"
     
     chop_char "Tonight. It starts tonight and will last until tomorrow."
     
@@ -115,7 +115,7 @@ label morgsandchop:
     
     player "Crystal, ma’am!"
     
-    chop_char "G-Good!"
+    chop_char "{b}G-Good!{/b}"
     
     "Chop stomps past me, mixed with feelings of fear, embarrassment, and triumph."
     
