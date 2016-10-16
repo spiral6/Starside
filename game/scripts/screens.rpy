@@ -15,7 +15,7 @@ style default:
     color gui.text_color
 
 style input:
-    color gui.accent_color
+    color gui.input
 
 style hyperlink_text:
     color gui.accent_color
