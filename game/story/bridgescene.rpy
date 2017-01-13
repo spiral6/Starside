@@ -55,6 +55,40 @@ label bridgescene::
     
     player "So you're trying to get rid of them?"
     
+    morgs "If we can find them first, yeah!"
+    
+    player "Wait, is Cedric- "
+    
+    #TODO: this line should have a slow down at the ellipsis
+    morgs "Oh, no no no, that's my cat, he just escaped his cage... again."
+    
+    "I hear footsteps approaching."
+    
+    show soap at left
+    with dissolve
+    
+    soap "Hey, I heard you guys chatting, am I missing out on anything?"
+    
+    morgs "Oh, hey Soap, say hi to the new recruit."
+    
+    soap "Oh, hi, sorry I didn't notice you, I'm kind of sleep deprived right now. All us deckhands are pretty busy prepping the ship to leave orbit." 
+    soap "{i}yawn{/i} Yeah, pretty tired right now."
+    
+    player "Yeah, I can understand that. What do you do here?
+    
+    soap "I’m the Helmsman, I drive the ship."
+    
+    player "Well I guess it's a good thing you'll be able to catch up on sleep before we get going."
+    
+    soap "{i}yawn{/i} Hm? I wish, we’re taking off soon in like 2 hours."
+    
+    player "{i}Why do I have large amounts of concern now for this crew?{/i}"
+    player "Ooh, well… here's hoping it goes smoothly!"
+    
+    soap "Anyways, I need to get back to my station, the Captain won't like it if I'm not within grabbing distance." 
+    soap "{i}yawn{/i}{p}Later."
+    
+    
     scene black with fade
     
     
