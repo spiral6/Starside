@@ -1,0 +1,37 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/story/main.rpy", line 15, in script call
+    call introduction
+  File "game/story/introduction.rpy", line 36, in script call
+    player "PVT [player_name] reporting!"
+  File "renpy/common/00console.rpy", line 656, in script call
+    python in _console:
+  File "game/story/bridgescene.rpy", line 157, in script
+    "It’s great to meet you, hopefully we see each other often.":
+  File "game/story/bridgescene.rpy", line 158, in <module>
+    python:
+TypeError: unsupported operand type(s) for +=: 'ADVCharacter' and 'int'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/story/main.rpy", line 15, in script call
+    call introduction
+  File "game/story/introduction.rpy", line 36, in script call
+    player "PVT [player_name] reporting!"
+  File "renpy/common/00console.rpy", line 656, in script call
+    python in _console:
+  File "game/story/bridgescene.rpy", line 157, in script
+    "It’s great to meet you, hopefully we see each other often.":
+  File "G:\Development\RenPy\renpy\ast.py", line 814, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "G:\Development\RenPy\renpy\python.py", line 1695, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "game/story/bridgescene.rpy", line 158, in <module>
+    python:
+TypeError: unsupported operand type(s) for +=: 'ADVCharacter' and 'int'
+
+Windows-8-6.2.9200
+Ren'Py 6.99.12.2.2029
+Starside 0.1.2
